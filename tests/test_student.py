@@ -1,16 +1,15 @@
 import pytest
 # from student import Student, GradStudent, UndergradStudent
+from student import student
 
-
-# s1 = GradStudent(name='Joe Smith', ID='453535', GPA=2.7)
+s = GradStudent(name='Joe Smith', ID='453535', GPA=2.7)
 # s2 = UndergradStudent(name='Sally Smith', ID='453535', GPA=2.7)
 
 
 def test_name():
     # assert s1.name == 'Joe Smith'
     # assert s2.name == 'Sally Smith'
-    pass
-
+    assert s.name
 
 def test_GPA():
     # assert s1.get_GPA() == 2.7
